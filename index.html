@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  
+  <title>Expenses chart component</title>
+</head>
+<body>
+
+  <!-- My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month
+   -->
+
+   <div class="main__container">
+    <div class="container column wrapper">
+      <div class="imfaroolle__row row__1 row">
+        <div class="spending__col__1">
+          <p class="my__balance">My balance</p>
+          <h2 class="my__balance__amount">$921.48</h2>
+        </div>
+        <div class="spending__col__2">
+          <div class="logo">
+            <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+          </div>
+        </div>
+      </div>
+      <div class="imfaroolle__row row__2 column">
+        <div class="spending__header">
+          <h2>Spending - Last 7 days</h2>
+        </div>
+        <div class="imfaroolle__chart column">
+          <div class="col__chart__wrapper row">
+            <div class="charts">
+              <div class="amount amount__1">153.36</div>
+              <div class="col__chart col__1">
+             </div>
+             <p data-day="mon">mon</p>
+            </div>
+            <div class="charts">
+              <div class="amount amount__2">153.36</div>
+             <div class="col__chart col__2">
+             </div>
+             <p data-day="tue">tue</p>
+            </div>
+            <div class="charts">
+             <div class="amount amount__3">153.36</div>
+             <div class="col__chart col__3">
+            </div>
+            <p data-day="wed">wed</p>
+           </div>
+           <div class="charts">
+             <div class="amount amount__4">153.36</div>
+            <div class="col__chart col__4">
+            </div>
+            <p data-day="thu">thu</p>
+           </div>
+            <div class="charts">
+              <div class="amount amount__5">153.36</div>
+             <div class="col__chart col__5">
+             </div>
+             <p data-day="fri">fri</p>
+            </div>
+            <div class="charts">
+             <div class="amount amount__6">153.36</div>
+             <div class="col__chart col__6">
+            </div>
+            <p data-day="sat">sat</p>
+           </div>
+           <div class="charts">
+             <div class="amount amount__7">153.36</div>
+            <div class="col__chart col__7">
+            </div>
+            <p data-day="sun">sun</p>
+           </div>
+           </div>
+        <div class="col__chart__text row">
+          <div class="totals">
+            <p class="total__this__month">Total this month</p>
+            <h2 class="total__amount">$478.33</h2>
+          </div>
+
+          <div class="precents">
+            <h3 class="last__month__precent">+2.4%</h3>
+            <p>from last month</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">imfaroolle</a>.
+    </div>
+   </div>
+
+</body>
+</html>

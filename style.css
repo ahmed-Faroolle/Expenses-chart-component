@@ -1,0 +1,210 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary__soft: hsl(10, 79%, 65%);
+    --primary__cyan: hsl(186, 34%, 60%);
+
+    --neutral__dark__brown: hsl(25, 47%, 15%);
+    --neutral__medium__brown: hsl(28, 10%, 53%);
+    --neutral__cream: hsl(27, 66%, 92%);
+    --neutral__very__pale: hsl(33, 100%, 98%);
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: "DM Sans" ;
+    background-color: var(--neutral__cream);
+    
+}
+
+
+
+::-moz-selection{
+    background-color: var(--neutral__dark__brown);
+    color: var(--neutral__very__pale);
+}
+
+::selection{
+    background-color: var(--neutral__dark__brown);
+    color: var(--neutral__very__pale);
+}
+
+.main__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex; 
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.imfaroolle__row{
+    padding: 24px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 30.3px 0.3px rgba(0,0,0,0.1);
+}
+
+.row__1{
+    justify-content: space-between;
+    background-color: var(--primary__soft);
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo{
+    transition: all 4s;
+    -webkit-transition: all 4s;
+    -moz-transition: all 4s;
+    -ms-transition: all 4s;
+    -o-transition: all 4s;
+    cursor: pointer;
+}
+
+svg{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.logo:hover svg{
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+}
+
+.row__1 p, .row__1 h2{
+    color: var(--neutral__very__pale);
+}
+
+.row__2{
+    margin-top: 18px;
+    background-color: var(--neutral__very__pale);
+    flex: 100%;
+}
+
+.col__chart__wrapper{
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--neutral__cream);
+}
+
+.row__2 h2, .row__2 p, .col__chart__text h2{
+    color: var(--neutral__dark__brown);
+}
+
+.col__chart__wrapper{
+    display: flex;
+    flex: 100%;
+    align-items: flex-end;
+    max-width: 100%;
+    /* background-color: yellow; */
+    justify-content: space-between;
+    position: relative;
+    padding-top: 30px;
+}
+
+.charts{
+    /* background-color: purple; */
+    display: flex;
+    flex: 10%;
+    max-width: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col__chart{
+    background-color: var(--primary__soft);
+    width: 80%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.charts .col__chart:hover{
+    opacity: 0.8;
+}
+
+p[data-day]{
+    font-size: 12px;
+    color: var(--neutral__medium__brown);
+}
+
+.hidden{
+    opacity: 0;
+}
+.amount{
+    box-shadow: 0 0 14px 0.3px rgba(0,0,0,0.1);
+    font-size: 12px;
+    padding: 8px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: var(--neutral__dark__brown);
+    color: var(--neutral__very__pale);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+
+.amount:hover{
+    background-color: var(--primary__soft);
+    color: var(--neutral__very__pale);
+}
+
+.col__chart__text{
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.col__chart__text p{
+    color: var(--neutral__medium__brown);
+    font-size: 14px;
+}
+
+.col__chart__text h3{
+    font-size: 18px;
+    text-align: right;
+    color: var(--neutral__dark__brown);
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 30px;}
+.attribution a { color: var(--primary__soft); }

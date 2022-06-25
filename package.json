@@ -1,0 +1,23 @@
+{
+  "name": "expenses-chart-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "imfaroolle-expenses chart component"
+  },
+  "keywords": [
+    "expenses",
+    "chart"
+  ],
+  "author": "imfaroolle",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "requirejs": "^2.3.6"
+  }
+}
