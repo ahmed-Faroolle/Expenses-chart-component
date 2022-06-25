@@ -32,7 +32,6 @@ Users should be able to:
 #### Mobile
 ![](./screenshots/mobile.png)
 
-
 ### Links
 
 - Live Site URL: [imfaroolle Expenses chart component](https://imfaroolle-expenses-chart-component.netlify.app/)
