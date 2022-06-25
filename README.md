@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [imfaroolle Expenses chart component](https://imfaroolletipcalculatorapp.netlify.app/)
+- Live Site URL: [imfaroolle Expenses chart component](https://imfaroolle-expenses-chart-component.netlify.app/)
 
 ## Built with
 
