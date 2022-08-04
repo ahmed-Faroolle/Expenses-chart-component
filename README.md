@@ -44,5 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [imfaroolle](https://www.imfaroolle.com)
-- Twitter - [@a_faroole](https://twitter.com/a_faroole)
+- Website - [imfaroolle](https://www.imfaroolle.com/)
+- Twitter - [@imfaroolle](https://twitter.com/imfaroolle)
+- Instagram - [@imfaroolle](https://www.instagram.com/imfaroolle/)
